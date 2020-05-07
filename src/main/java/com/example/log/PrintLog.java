@@ -3,7 +3,7 @@ package com.example.log;
 import java.lang.annotation.*;
 
 /**
- * @author lishibo
+ * @author 繁星
  */
 @Target(ElementType.METHOD)
 @Retention(RetentionPolicy.RUNTIME)

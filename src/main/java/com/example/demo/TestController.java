@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * @author lishibo
+ * @author 繁星
  */
 @RestController
 @Api(value = "/api" , tags = "测试接口" )

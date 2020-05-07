@@ -17,7 +17,7 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
 /**
- * @author lishibo
+ * @author 繁星
  */
 @Component
 @Aspect
