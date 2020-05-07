@@ -1,0 +1,8 @@
+config:
+  enable:
+    swagger-ui-open: true
+
+server:
+  port: 8081
+
+debug: false
