@@ -19,7 +19,6 @@ import javax.servlet.http.HttpSession;
 /**
  * @author 繁星
  */
-@Component
 @Aspect
 public class LogConfig {
 
