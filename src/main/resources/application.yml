@@ -21,7 +21,13 @@ spring:
     minEvictableIdleTimeMillis: 300000
     validationQuery: select 1
     testWhileIdle: true
-    testOnBorrow: true
-    testOnReturn: true
+    testOnBorrow: false
+    testOnReturn: false
     poolPreparedStatements: true
     maxOpenPreparedStatements: 20
+    type: com.alibaba.druid.pool.DruidDataSource
+
+
+mybatis:
+  config-location:
+    classpath: com/example/dao/**/*Mapper.xml
