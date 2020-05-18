@@ -5,12 +5,14 @@ config:
 server:
   port: 8081
 
-debug: false
+logging:
+  level:
+    com.example.dao: debug
 
 spring:
   datasource:
     driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
-    url: jdbc:sqlserver://127.0.0.1;DatabaseName=TEST_DATABASE
+    url: jdbc:sqlserver://127.0.0.1:1433;DatabaseName=Test_play
     username: fx
     password: 123456
     maxActive: 20

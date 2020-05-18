@@ -10,7 +10,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 /**
  * @author 繁星
  */
-@EnableLog
 @SpringBootApplication(scanBasePackages = {"com.example"})
 @MapperScan("com.example.**.dao")
 public class DemoApplication {
