@@ -6,8 +6,6 @@ import com.example.service.HolidayService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import javax.annotation.Resource;
-
 
 /**
  * 节假日校验实现类
