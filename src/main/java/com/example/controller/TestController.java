@@ -31,7 +31,7 @@ public class TestController {
         return name + "--成功";
     }
 
-    @RequestMapping(value = "/holidayValidate", method = RequestMethod.POST)
+    @RequestMapping(value = "/holidayValidate", method = RequestMethod.POST, produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
     @ApiOperation(value = "节假日判断", response = String.class, notes = "节假日判断")
     public String holidayValidate(@RequestParam("date") String date){
         logger.info("入参：{}", JSON.toJSONString(date));
